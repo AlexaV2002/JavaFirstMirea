@@ -1,7 +1,7 @@
 package ru.mirea.task3;
 
 public class Head {
-    private static final double PI = 3.1416 ;
+    private static final double P = 3.14 ;
     int r;
 
     public Head (int r)
@@ -26,7 +26,7 @@ public class Head {
 
     public double getArea()
     {
-        return PI*r*r;
+        return P*r*r;
     }
 
     @Override
