@@ -5,8 +5,7 @@ public class Book {
     String Author;
     int Page;
     int year;
-    public Book(String name, String Author, int Page, int year)
-    {
+    public Book(String name, String Author, int Page, int year) {
         this.name = name;
         this.Author = Author;
         this.Page = Page;

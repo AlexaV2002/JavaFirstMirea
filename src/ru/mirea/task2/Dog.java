@@ -9,8 +9,7 @@ public class Dog {
         name = n;
         age = a;
     }
-    public Dog(String n)
-    {
+    public Dog(String n) {
         name = n;
         age = 0;
     }

@@ -3,28 +3,23 @@ package ru.mirea.task3;
 public class Hand {
     double length;
 
-    public Hand (double length)
-    {
+    public Hand(double length) {
         this.length = length;
     }
 
-    public void getSick()
-    {
+    public void getSick() {
         System.out.println("leg is sick");
     }
 
-    public void setLength(int length)
-    {
+    public void setLength(int length) {
         this.length = length;
     }
 
-    public double getLength()
-    {
+    public double getLength() {
         return length;
     }
 
-    public void PullWithUhand()
-    {
+    public void PullWithUhand() {
         System.out.println("Pull with your hand");
     }
 

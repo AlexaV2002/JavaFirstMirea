@@ -8,8 +8,7 @@ public class Leg {
         this.length = length;
     }
 
-    public void getWalk()
-    {
+    public void getWalk() {
         System.out.println("leg is walk");
     }
 
