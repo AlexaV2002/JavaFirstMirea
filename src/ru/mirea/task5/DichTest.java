@@ -1,0 +1,8 @@
+package ru.mirea.task5;
+
+public class DichTest {
+    public static void main(String[] args) {
+        Tarelka t = new Tarelka("Керамическая","Белый","Большая");
+        System.out.println(t); //выводим объект t на экран
+    }
+}
