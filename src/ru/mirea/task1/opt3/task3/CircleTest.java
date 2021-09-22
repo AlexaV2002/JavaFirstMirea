@@ -1,4 +1,4 @@
-package ru.mirea.task3;
+package ru.mirea.task1.opt3.task3;
 
 import java.util.Locale;
 import java.util.Scanner;
