@@ -17,7 +17,7 @@ public class Dish {
     }
 
     public void setColor(String color) {
-        color = color;
+        this.color = color;
     }
 
     public Dish(String material, String color) {
@@ -27,10 +27,7 @@ public class Dish {
 
     @Override
     public String toString() {
-        return "Посуда{" +
-                "Материал " + material + '\'' +
-                ", Цвет" + color + '\'' +
-                '}';
+        return  material  + color ;
     }
 }
 
