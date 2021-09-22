@@ -1,4 +1,4 @@
-package ru.mirea.task1.opt3.task3;
+package ru.mirea.task3;
 
 public class Head {
     private static final double PI = 3.1416 ;

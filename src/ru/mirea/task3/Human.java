@@ -1,4 +1,4 @@
-package ru.mirea.task1.opt3.task3;
+package ru.mirea.task3;
 
 public class Human {
     Head h;
