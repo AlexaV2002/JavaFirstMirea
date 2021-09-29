@@ -2,7 +2,11 @@ package ru.mirea.task5;
 
 public class DogTest {
     public static void main(String[] args) {
-        Labarador t = new Labarador ("очень активная и озорная порода;","Великолепно уживаются с другими животными.","Большая;");
-        System.out.println(t);
+        Dog1 dog1=new Dog1();
+        Dog2 dog2=new Dog2();
+        dog1.Test();
+        dog1.Buy();
+        dog2.Test();
+        dog2.Buy();
     }
 }
