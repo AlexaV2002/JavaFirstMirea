@@ -1,5 +1,7 @@
 package ru.mirea.task2;
 
+import ru.mirea.task2.opt1.Ball;
+
 public class BallTest {
     public static void main(String[] args) {
         Ball ball1 = new Ball(30);
