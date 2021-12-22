@@ -1,6 +1,7 @@
 package ru.mirea.task4;
 
-public class BallTest {
+public class
+BallTest {
     public static void main(String[] args)
     {
         Ball bl = new Ball(50, 52);

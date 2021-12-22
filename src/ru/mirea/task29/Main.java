@@ -14,7 +14,7 @@ public class Main {
         CurrencyInfo currencyInfo = new CurrencyInfo(territoryInfo, resourcesInfo, diplomacyInfo);
 
         //создаем 2 потока для сериализации объекта и сохранения его в файл
-        FileOutputStream outputStream = new FileOutputStream("C:\\Code\\Java\\save.ser");
+        FileOutputStream outputStream = new FileOutputStream("C:\\Users\\Александра\\IdeaProjects\\JavaFirstMirea\\src\\ru\\mirea\\task29\\file.ser");
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(outputStream);
 
         // сохраняем данные в файл
@@ -24,7 +24,7 @@ public class Main {
         objectOutputStream.close();
 
 
-        FileInputStream fileInputStream = new FileInputStream("C:\\Code\\Java\\save.ser");
+        FileInputStream fileInputStream = new FileInputStream("C:\\Users\\Александра\\IdeaProjects\\JavaFirstMirea\\src\\ru\\mirea\\task29\\file.ser");
         ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
 
         CurrencyInfo currencyInfo1 = (CurrencyInfo) objectInputStream.readObject();

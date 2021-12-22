@@ -1,4 +1,4 @@
-package ru.mirea.task12.Ex3;
+package ru.mirea.task12.ex3;
 
 public class Students {
     int id= 0;

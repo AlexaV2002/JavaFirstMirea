@@ -62,6 +62,6 @@ public class WomanTest {
         String expected = "green";
         String actual = w2.getEyesColor();
 
-        Assert.assertEquals(expected, actual);
+      Assert.assertEquals(expected, actual);
     }
 }

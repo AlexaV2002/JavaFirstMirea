@@ -5,22 +5,27 @@ import java.util.ArrayList;
 public class Metro {
     ArrayList<String> lines = new ArrayList<String>();
     Metro() {
-        lines.add("Park Pobedy");
-        lines.add("Kievskaya");
-        lines.add("Smolenskaya");
-        lines.add("Borovitskaya");
-        lines.add("Arbatskaya");
-        lines.add("Biblioteka Lenina");
-        lines.add("Park Kultury");
-        lines.add("Frunzenskaya");
-        lines.add("Sportivnaya");
-        lines.add("Universitet");
-        lines.add("Yugo-Zapadnaya");
-        lines.add("Okhotny Ryad");
-        lines.add("Lubyanka");
-        lines.add("Teatralnaya");
-        lines.add("Nekrasovskaya");
-        lines.add("Belyaevo");
+        lines.add("Khovrino");
+        lines.add("Belomorskaya");
+        lines.add("Rechnoi Vokzal");
+        lines.add("Water Stadium");
+        lines.add("Voykovskaya");
+        lines.add("Sokol");
+        lines.add("Airport");
+        lines.add("Dynamo");
+        lines.add("Belaruskaya");
+        lines.add("Mayakovskaya");
+        lines.add("Tverskaya");
+        lines.add("Theatrical");
+        lines.add("Paveletskaya");
+        lines.add("Avtozavodskaya");
+        lines.add("Kolomenskaya");
+        lines.add("Kashirskaya");
+        lines.add("Kantemirovskaya");
+        lines.add("Tsaritsyno");
+        lines.add("Orekhovo");
+        lines.add("Domodedovo");
+        lines.add("Krasnogvardeyskaya");
     }
     public void PrintList(boolean state){
         for(int i = 0; i < lines.size(); i++){
